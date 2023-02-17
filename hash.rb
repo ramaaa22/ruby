@@ -54,3 +54,13 @@ students.each do |st|
 end
 
 puts students
+
+#other way to create the hash
+
+students = [
+    Hash[:name, "Agustin", :lastname, "Lopez", :age, 25],
+    Hash[:name, "Ramiro", :lastname, "Boza", :age, 31],
+    Hash[:name, "Matias", :lastname, "Palomoque", :age, 27],
+]
+
+puts students
